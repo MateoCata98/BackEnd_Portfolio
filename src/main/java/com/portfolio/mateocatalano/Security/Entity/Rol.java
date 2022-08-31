@@ -20,7 +20,6 @@ public class Rol {
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
     
-    //Constructor
     public Rol() {
     }
 
@@ -28,7 +27,6 @@ public class Rol {
         this.rolNombre = rolNombre;
     }
     
-    //Getter y Setter
 
     public int getId() {
         return id;
